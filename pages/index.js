@@ -32,7 +32,6 @@ export default function Home() {
             <li>I love programming as I just told you</li>
             <li>I love solving math problems</li>
             <li>I love playing tennis</li>
-            <li>Big Travis Scott fan but I also enjoy pop</li>
           </ul>
           
           <h5>Courses:</h5>
