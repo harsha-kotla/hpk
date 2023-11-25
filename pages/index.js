@@ -29,17 +29,10 @@ export default function Home() {
           </p>
           <p>Some facts about me:</p>
           <ul>
-            <li>I love programming as I just told you</li>
+            <li>I love web dev</li>
             <li>I love solving math problems</li>
-            <li>I love playing tennis</li>
           </ul>
-          
-          <h5>Courses:</h5>
-          <ul>
-            <li>Udemy MERN stack</li>
-            <li>Udemy Intro to Machine Learning</li>
-            <li>Coursera HTML CSS and JS course</li>
-          </ul>
+                   
         </div>
       </main>
     </>
