@@ -16,23 +16,44 @@ export default function Home() {
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
       </Head>
       <main>
-        <div class="container" style={{maxWidth: 1100}}><br/>
-        <a className="btn btn-light" href="https://github.com/harsha-kotla" target="_blank" style={{float: "right"}}>Github</a>
+      <div class="container" style={{maxWidth: 900}}><br/>
+        <a target="_blank" href="https://github.com/harsha-kotla"><button className="btn btn-outline-light" style={{float: "right"}}><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="26"></img></button></a>
+        <h4>Harsha Kotla</h4> 
+        <hr/>
+        </div>
 
-          <h3>Harsha Kotla</h3>
+        <div class="container" style={{maxWidth: 900}}><br/>
+        
+        {/* <img width="200" class="float-left" src="https://lh3.googleusercontent.com/pw/ADCreHen2x5YlGIDueUNpu4v0n5Bc1kIS9c2rvzxE-5wxO44QUkLzA774qSIxQRdd3v8No8tmZsd6iRZOL_IiYi9mQol7PaM2HK259ec5luMgbsIjgqfx-AcbWaObK8AXBljnjPd_zivv-H11wo0i9hMD5-3_A=w1152-h1466-s-no-gm?authuser=0"/>  */}
+          <div class="float-right">
 
-          <br/>
-          <h5>About me:</h5>
+          <h4>About me:</h4>
 
           <p>
-            Hi, I'm Harsha Kotla. I love programming. I mostly work on web development, but I also love algorithms in C++ and Java. 
+            Hi 👋 I'm Harsha Kotla, a sophomore at Bellarmine College Preparatory. I love programming. I mostly work on web development, but I also love algorithms in C++ and Java. 
           </p>
           <p>Some facts about me:</p>
           <ul>
             <li>I love web dev</li>
             <li>I love solving math problems</li>
           </ul>
-                   
+          </div>
+          <h4>Projects:</h4>
+          <p></p>
+          {/* <a href="#" class="list-group-item list-group-item-action active" style={{width: 500, border: "1px solid lightgray", borderRadius: 7, padding: 15}} aria-current="true">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">Notelite</h5>
+            </div>
+            <p class="mb-1">Where notes are shared with the world 🌎.</p>
+            <small>Coming soon</small>
+          </a><br/> */}
+          <a href="#" class="list-group-item list-group-item-action active" style={{width: 500, border: "1px solid lightgray", borderRadius: 7, padding: 15}} aria-current="true">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">Metfyre</h5>
+            </div>
+            <p class="mb-1">Share items everywhere anywhere.</p>
+            <small>Coming soon</small>
+          </a>
         </div>
       </main>
     </>
