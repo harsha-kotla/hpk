@@ -32,11 +32,7 @@ export default function Home() {
           <p>
             Hi 👋 I'm Harsha Kotla, a sophomore at Bellarmine College Preparatory. I love web development and algorithms. I am proficient in tech stacks such as Next js and the MERN stack. This website was actually programmed using Next js. I also enjoy programming in C++, Java, and Python outside of the web.
           </p>
-          <p>Some facts about me:</p>
-          <ul>
-            <li>I love web dev</li>
-            <li>I love solving math problems</li>
-          </ul>
+          
           </div>
           <h4>Projects:</h4>
           <p></p>
