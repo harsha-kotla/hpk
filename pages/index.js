@@ -17,7 +17,9 @@ export default function Home() {
       </Head>
       <main>
       <div class="container" style={{maxWidth: 900}}><br/>
-        <a target="_blank" href="https://github.com/harsha-kotla"><button className="btn btn-outline-light" style={{float: "right"}}><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="26"></img></button></a>
+        <a target="_blank" href="https://github.com/harsha-kotla"><button className="btn btn-outline-light" style={{float: "right", border: "none", marginBottom: 5}}><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="26"></img></button></a>
+        {/* <a target="_blank" href="https://linkedin.com/in/harsha-kotla"><button className="btn btn-outline-light" style={{float: "right", border: "none", marginBottom: 5}}><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png" width="26"></img></button></a> */}
+
         <h4>Harsha Kotla</h4> 
         <hr/>
         </div>
@@ -32,8 +34,25 @@ export default function Home() {
           <p>
             Hi 👋 I'm Harsha Kotla, a sophomore at Bellarmine College Preparatory. I love web development and algorithms. I am proficient in tech stacks such as Next js and the MERN stack. This website was actually programmed using Next js. I also enjoy programming in C++, Java, and Python outside of the web.
           </p>
-          
+          <p>
+            First are the problem solving skills that I have been developing for a while. This can include either computer science related problems or competitive math problems. Here are some awards I have gotten over the years:
+            <ul>
+              <li>2024 AIME qualifier</li>
+              <li>USACO silver contestant</li>
+              <li>2022 AMC 8 DHR</li>
+            </ul>
+          </p>
+          <p>
+            Outside of school, I play tennis for fun and competitively. 
+          </p>
           </div>
+          {/* <h4>Publications:</h4>
+          <a href="#" class="list-group-item list-group-item-action active" style={{width: 620, border: "1px solid lightgray", borderRadius: 7, padding: 15}} aria-current="true">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">Correlation Between Twitter Sentiment and Stock Performance</h5>
+            </div>
+            <p class="mb-1">A small *experiment* that finds whether sentiment and stock performance correlate by using different regression models.</p>
+          </a><p></p> */}
           <h4>Projects:</h4>
           <p></p>
           {/* <a href="#" class="list-group-item list-group-item-action active" style={{width: 500, border: "1px solid lightgray", borderRadius: 7, padding: 15}} aria-current="true">
@@ -43,14 +62,21 @@ export default function Home() {
             <p class="mb-1">Where notes are shared with the world 🌎.</p>
             <small>Coming soon</small>
           </a><br/> */}
-          <a href="#" class="list-group-item list-group-item-action active" style={{width: 500, border: "1px solid lightgray", borderRadius: 7, padding: 15}} aria-current="true">
+          <a href="#" class="list-group-item list-group-item-actionactive" style={{width: 620, border: "1px solid lightgray", borderRadius: 7, padding: 15}} aria-current="true">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">BayNest</h5>
+            </div>
+            <p class="mb-1">Finding the right house for you.</p>
+            <small>Coming soon</small>
+          </a><br/>
+          <a href="#" class="list-group-item list-group-item-action active" style={{width: 620, border: "1px solid lightgray", borderRadius: 7, padding: 15}} aria-current="true">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">Metfyre</h5>
             </div>
             <p class="mb-1">Share items everywhere anywhere.</p>
             <small>Coming soon</small>
           </a>
-        </div>
+        </div><p></p>
       </main>
     </>
   )
